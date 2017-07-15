@@ -7,9 +7,9 @@ object Products extends App {
   /*
   * Products
   * */
-  case class Employee(name: String, number: Int, manager: Boolean)
 
-  case class IceCream(name: String, numCherries: Int, inCone: Boolean)
+
+
 
   val e1 = Employee("Dave", 123, false)
   val ic1 = IceCream("Sundae", 1, false)
