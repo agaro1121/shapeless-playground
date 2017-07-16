@@ -1,7 +1,8 @@
 package shapelessguideexamples.chapter3
 
+
 import shapeless.{:+:, ::, CNil, Coproduct, Generic, HList, HNil, Inl, Inr, Lazy, the}
-import shapelessguideexamples.chapter2.{Circle, Rectangle, Shape}
+import shapelessguideexamples.chapter2.ADTAndGenRepr.{Circle, Rectangle, Shape}
 import shapelessguideexamples.{Employee, IceCream, Tree}
 
 trait CsvEncoder[A] {

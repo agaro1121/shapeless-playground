@@ -1,7 +1,6 @@
 package shapelessguideexamples.chapter2
 
 import shapeless.Generic
-import shapelessguideexamples.chapter2.ADTAndGenRepr.{Circle, Rectangle, Shape}
 
 object CoProducts extends App {
 
